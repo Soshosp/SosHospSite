@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: rgb(50, 197, 185);
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.4em;
+}
+
+.nav > .menu-list > li{
+    float: left;
+    position: relative;
+}
+
+.nav > .menu-list > li > a {
+    padding: 20px;
+    margin: 0.5px;
+    background: #000;
+}
+
+.nav > .menu-list > li:hover a {
+    background: rgb(148, 243, 238);
+}
+
+.nav:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: rgb(68, 66, 66);
+    margin-left: 5%;
+    text-align: left;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color:#380861;
+    margin-left: 10%;
+}
+
+#check{
+    display: inline-block;
+}
+
+fieldset{
+    border: 0;
+    margin-left: 10%;
+}
+
+body{
+    background-color: rgb(152, 216, 211);
+    font-family: sans-serif;
+    font-size: 0.95em;
+    color: white;
+    margin-left: 10%;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    font-family: sans-serif;
+    font-size: 2em;
+    color: rgb(105, 98, 98);
+    border-radius: 5px;
+} 
+
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after{
+    display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after{
+    clear: both;
+}
+
+.campo{
+    margin-bottom: 0.5px;
+    text-align: justify;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(68, 66, 66);
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.1em;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: rgb(168, 233, 233);
+}
+
+.botao{
+    font-size: 1.1em;
+    background: rgb(152, 216, 211);
+    border: 0;
+    margin-bottom: 10em;
+    color: rgb(46, 46, 46);
+    padding: 0.2em, 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 97%;
+    left: 15%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%)
+}
+
+.botao:hover{
+    background: rgb(148, 243, 238);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+
+}
+
+.botao select{
+    cursor: pointer;
+}
+
+
+
+
