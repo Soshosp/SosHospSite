@@ -74,3 +74,25 @@ h2{
     font-size: 20px;
     color: white;
 }
+
+.bordaSobre{
+    padding: 10px;
+    border: 2px solid white;
+    margin: 12px;
+}
+
+.textSobre{
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;  
+}
+
+.bodySobre{
+    background-color: rgb(152, 216, 211);
+}
+
+.titleSobre{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
